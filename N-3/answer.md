@@ -12,7 +12,7 @@ while num >= factor:
     else:
         	factor++
 ```
-**The prime factors from small to large.**
+**The prime factors are from small to large.**
 ### Algorithm Optimization
 * If the num is very large, it would take quite time to reach the last prime. So, we need optimization.
 1. First of all: We can first check if the num is a prime. If it is, the following codes won't execute.  
